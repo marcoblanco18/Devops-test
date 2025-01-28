@@ -12,7 +12,7 @@ jobs:
       - name: install npm			
         run: npm install 
       - name: Formatter (Prettier) npm run prettier
-        run:  run prettier
+        run:  run lint
       - name: Linter (ESLint) npm run lint
-        run: npm run lint
+        run: npm run prettier
 
